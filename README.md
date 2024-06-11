@@ -1,14 +1,14 @@
 ## usersテーブル
-|Column             |Type        |Options                   |
-|-------------------|------------|--------------------------|
-|nickname           |string      |null:false                |
-|email              |string      |null:false                |
-|encrypted_password |string      |null:false                |
-|first_name         |string      |null:false                |
-|last_name          |string      |null:false                |
-|read_first         |string      |null:false                |
-|read_last          |string      |null:false                |
-|birthday           |date        |null:false                |
+|Column             |Type        |Options                      |
+|-------------------|------------|-----------------------------|
+|nickname           |string      |null:false                   |
+|email              |string      |null:false                   |
+|encrypted_password |string      |null:false                   |
+|first_name         |string      |null:false                   |
+|last_name          |string      |null:false                   |
+|read_first         |string      |null:false                   |
+|read_last          |string      |null:false                   |
+|birthday           |date        |null:false                   |
 ### Association
 - has_many : items
 - has_many : orders
