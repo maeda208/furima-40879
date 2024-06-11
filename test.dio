@@ -1,0 +1,134 @@
+<mxfile host="65bd71144e">
+    <diagram id="cO_f-TR4pbGXCJkTjhEt" name="ページ1">
+        <mxGraphModel dx="381" dy="274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="61" value="ニックネーム&lt;br&gt;パスワード&lt;br&gt;生年月日&lt;br&gt;メールアドレス&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;苗字&lt;/span&gt;&lt;font style=&quot;background-color: initial;&quot; face=&quot;Helvetica&quot;&gt;(漢字)&lt;/font&gt;&lt;br&gt;名前&lt;font face=&quot;Garamond&quot;&gt;(漢字)&lt;/font&gt;&lt;br&gt;苗字&lt;font face=&quot;Garamond&quot;&gt;(カタカナ)&lt;/font&gt;&lt;br&gt;名前&lt;font face=&quot;Garamond&quot;&gt;(カタカナ)&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="345" y="50" width="290" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="ユーザー情報" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="350" width="280" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="購入履歴&lt;br&gt;配送先郵便番号&lt;br&gt;配送先都道府県&lt;br&gt;配送先市区町村&lt;br&gt;配送先番地&lt;br&gt;配送先建物名&lt;br&gt;電話番号" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="230" width="250" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="購入者情報" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="195" width="150" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="ユーザー&lt;br&gt;商品画像&lt;br&gt;商品名&lt;br&gt;商品の説明&lt;br&gt;商品の詳細(カテゴリー)&lt;br&gt;商品の詳細(商品の状態)&lt;br&gt;配送(配送料)&lt;br&gt;配送(発送元の地域)&lt;br&gt;配送(配送までの日数)&lt;br&gt;販売価格" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="250" width="220" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="ユーザー&lt;br&gt;商品" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="432.5" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="購入履歴" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="427.5" y="360" width="125" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="出品情報" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="190" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=16;shape=link;exitX=0.403;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;targetPerimeterSpacing=1;sourcePerimeterSpacing=1;" edge="1" parent="1" source="71">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="140" y="60" as="sourcePoint"/>
+                        <mxPoint x="345" y="60" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="111" y="60"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=16;shape=link;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="240" y="400" as="sourcePoint"/>
+                        <mxPoint x="420" y="400" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=16;shape=link;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="550" y="400" as="sourcePoint"/>
+                        <mxPoint x="680" y="400" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="90" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=16;shape=link;" edge="1" parent="1" source="61" target="70">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="480" y="310" as="sourcePoint"/>
+                        <mxPoint x="540" y="320" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="93" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=16;sourcePerimeterSpacing=1;targetPerimeterSpacing=1;shape=link;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="460" y="300" as="sourcePoint"/>
+                        <mxPoint x="530" y="300" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=16;sourcePerimeterSpacing=1;targetPerimeterSpacing=1;shape=link;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="490" y="340" as="sourcePoint"/>
+                        <mxPoint x="440" y="360" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="95" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=16;sourcePerimeterSpacing=1;targetPerimeterSpacing=1;shape=link;entryX=0.9;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="70">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="490" y="334.86" as="sourcePoint"/>
+                        <mxPoint x="540" y="350" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=16;sourcePerimeterSpacing=1;targetPerimeterSpacing=1;shape=link;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="400" y="370" as="sourcePoint"/>
+                        <mxPoint x="400" y="420" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="98" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=16;sourcePerimeterSpacing=1;targetPerimeterSpacing=1;shape=link;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="250" y="420" as="sourcePoint"/>
+                        <mxPoint x="250" y="370" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="99" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=16;sourcePerimeterSpacing=1;targetPerimeterSpacing=1;shape=link;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="570" y="430" as="sourcePoint"/>
+                        <mxPoint x="570" y="370" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=16;sourcePerimeterSpacing=1;targetPerimeterSpacing=1;shape=link;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="670" y="430" as="sourcePoint"/>
+                        <mxPoint x="670" y="370" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="101" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=16;sourcePerimeterSpacing=1;targetPerimeterSpacing=1;shape=link;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="330" y="90" as="sourcePoint"/>
+                        <mxPoint x="330" y="30" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="102" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=16;sourcePerimeterSpacing=1;targetPerimeterSpacing=1;shape=link;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="70" y="190" as="sourcePoint"/>
+                        <mxPoint x="110" y="140" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="103" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Garamond;fontSize=16;sourcePerimeterSpacing=1;targetPerimeterSpacing=1;shape=link;entryX=0.633;entryY=-0.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="71">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="110" y="140" as="sourcePoint"/>
+                        <mxPoint x="160" y="180" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
