@@ -1,19 +1,21 @@
 ## usersテーブル
-|Column             |Type        |Options                      |
-|-------------------|------------|-----------------------------|
-|nickname           |string      |null:false                   |
-|email              |string      |null:false                   |
-|encrypted_password |string      |null:false                   |
-|first_name         |string      |null:false                   |
-|last_name          |string      |null:false                   |
-|read_first         |string      |null:false                   |
-|read_last          |string      |null:false                   |
-|birthday           |date        |null:false                   |
+
+|Column             |Type        |Options                   |
+|-------------------|------------|--------------------------|
+|nickname           |string      |null:false                |
+|email              |string      |null:false                |
+|encrypted_password |string      |null:false                |
+|first_name         |string      |null:false                |
+|last_name          |string      |null:false                |
+|read_first         |string      |null:false                |
+|read_last          |string      |null:false                |
+|birthday           |date        |null:false                |
 ### Association
 - has_many : items
 - has_many : orders
 
 ## addressesテーブル
+
 |Column             |Type        |Options                      |
 |-------------------|------------|-----------------------------|
 |order              |references  |null:false, foreign_key: true|
@@ -27,6 +29,7 @@
 - belongs_to : order
 
 ## ordersテーブル
+
 |Column             |Type        |Options                      |
 |-------------------|------------|-----------------------------|
 |user               |references  |null:false, foreign_key: true|
@@ -38,6 +41,7 @@
 
 
 ## itemsテーブル
+
 |Column             |Type         |Options                      |
 |-------------------|-------------|-----------------------------|
 |product_name       |string       |null:false                   |
