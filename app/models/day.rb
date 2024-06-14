@@ -8,4 +8,4 @@ class Day < ActiveHash::Base
 
   include ActiveHash::Associations
   has_many :articles
-  end
+end

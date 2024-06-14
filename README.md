@@ -51,7 +51,7 @@
 |contribution_id    |integer      |null:false                  |
 |prefecture_id      |integer      |null:false                  |
 |day_id             |integer      |null:false                  |
-|price              |string       |null:false                  |
+|price              |integer      |null:false                  |
 |user               |references   |null:false,foreign_key:true |
  ### Association
 - has_one :order
