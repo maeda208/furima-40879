@@ -131,7 +131,6 @@
       <li class='list'>
         <%= link_to "#" do %>
          <%= image_tag item.image,size: '250x250', class:"item-image" %>
-           <% if @user_item %>
         <div class='item-img-content'>
           <%= image_tag "item-sample.png", class: "item-img" %>
           <div class='sold-out'>
@@ -153,8 +152,7 @@
         
          </li>
          <% end %>
-          <% end %>
-          
+
       <% if @items.empty? %>
       <li class='list'>
         <%= link_to '#' do %>
