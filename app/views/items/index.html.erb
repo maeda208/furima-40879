@@ -129,13 +129,12 @@
     <ul class='item-lists'>
       <% @items.each do |item| %>
       <li class='list'>
-        <%= link_to "#" do %>
+        <%= link_to item_path(item) do %>
          <%= image_tag item.image,size: '250x250', class:"item-image" %>
-        <div class='item-img-content'>
-          <%= image_tag "item-sample.png", class: "item-img" %>
-          <div class='sold-out'>
+          <%#<div class='sold-out'>
             <span>Sold Out!!</span>
           </div>
+         <% end %>
          <% end %>
         <div class='item-info'>
           <h3 class='item-name'>
