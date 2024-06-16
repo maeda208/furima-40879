@@ -45,7 +45,7 @@ class ItemsController < ApplicationController
   end
 
   def user_signed
-    return if user_signed_in? && current_user.id == @item.user_id
+    return if current_user.id == @item.user_id
 
     redirect_to action: :index
   end
