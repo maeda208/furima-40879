@@ -1,9 +1,9 @@
 class OrdersController < ApplicationController
   before_action :authenticate_user!, only: :index
+  before_action :set_item, only: [:index, :create]
 
   def index
-    @item = Item.find(params[:item_id])
-    Payjp.api_key = ENV['PAYJP_SECRET_KEY']
+    gon.public_key = ENV["PAYJP_PUBLIC_KEY"]
     @order_address = OrderAddress.new
     if @item.order.present?
       redirect_to root_path
@@ -15,9 +15,8 @@ class OrdersController < ApplicationController
   end
 
   def create
-    @item = Item.find(params[:item_id])
     @order_address = OrderAddress.new(order_params)
-    Payjp.api_key = ENV['PAYJP_SECRET_KEY']
+    gon.public_key = ENV["PAYJP_PUBLIC_KEY"]
     if @order_address.valid?
       pay_item
       @order_address.save
@@ -28,6 +27,10 @@ class OrdersController < ApplicationController
   end
 
   private
+
+  def set_item
+    @item = Item.find(params[:item_id])
+  end
 
   def order_params
     params.require(:order_address).permit(:post_code, :prefecture_id, :municipalities, :address, :building_name, :phone_number).merge(
