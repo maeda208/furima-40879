@@ -28,9 +28,9 @@ RSpec.describe OrderAddress, type: :model do
         expect(@order_address.errors.full_messages).to include 'Post code is invalid'
       end
       it 'prefecture_idがなければ購入できない' do
-        @order_address.prefecture_id = ''
+        @order_address.prefecture_id = '1'
         @order_address.valid?
-        expect(@order_address.errors.full_messages).to include "Prefecture can't be blank"
+        expect(@order_address.errors.full_messages).to include "Prefecture must be other than 1"
       end
       it 'municipalitiesがなければ購入できない' do
         @order_address.municipalities = ''
@@ -48,10 +48,25 @@ RSpec.describe OrderAddress, type: :model do
         expect(@order_address.errors.full_messages).to include "Phone number can't be blank", 'Phone number is not a number',
                                                                'Phone number is too short (minimum is 10 characters)'
       end
-      it 'phone_numberが半角数字10桁か11桁でなければ購入できない' do
+      it 'phone_numberが半角数字9桁以下では購入できない' do
         @order_address.phone_number = '012044444'
         @order_address.valid?
         expect(@order_address.errors.full_messages).to include 'Phone number is too short (minimum is 10 characters)'
+      end
+      it 'phone_numberが半角数字12桁以上では購入できない' do
+        @order_address.phone_number = '090123456789'
+        @order_address.valid?
+        expect(@order_address.errors.full_messages).to include 
+      end
+      it 'phone_numberに数字以外が含まれていては購入できない' do
+        @order_address.phone_number = 'phonenumber'
+        @order_address.valid?
+        expect(@order_address.errors.full_messages).to include 'Phone number is not a number'
+      end
+      it 'phone_numberに全角文字が含まれていては購入できない' do
+        @order_address.phone_number = '０９０１２３４５６７８'
+        @order_address.valid?
+        expect(@order_address.errors.full_messages).to include 'Phone number is not a number'
       end
       it 'tokenがなければ購入できない' do
         @order_address.token = ''
