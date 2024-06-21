@@ -54,9 +54,9 @@ RSpec.describe OrderAddress, type: :model do
         expect(@order_address.errors.full_messages).to include 'Phone number is too short (minimum is 10 characters)'
       end
       it 'phone_numberが半角数字12桁以上では購入できない' do
-        @order_address.phone_number = '090123456789'
+        @order_address.phone_number = '090123456789000'
         @order_address.valid?
-        expect(@order_address.errors.full_messages).to include 
+        expect(@order_address.errors.full_messages).to include 'Phone number is too long (maximum is 11 characters)'
       end
       it 'phone_numberに数字以外が含まれていては購入できない' do
         @order_address.phone_number = 'phonenumber'
